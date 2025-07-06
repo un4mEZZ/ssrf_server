@@ -1,5 +1,5 @@
 # SSRF Server
-setup new venv or install directly in python folder
+1) To run server:
 ```cmd
 (optional) .venv\Scripts\activate
 pip install -r requirements.txt
