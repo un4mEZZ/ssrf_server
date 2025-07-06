@@ -2,6 +2,7 @@
 1) To run server:
 ```cmd
 .venv\Scripts\activate
+pip install -r requirements.txt
 python server.py
 python target_server.py
 ```
