@@ -10,7 +10,7 @@ class TargetHandler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
-            self.wfile.write(b"admin")
+            self.wfile.write(b"admin, now go to secret")
 
 if __name__ == "__main__":
     server = HTTPServer(('127.0.0.1', 9000), TargetHandler)
