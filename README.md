@@ -1,3 +1,5 @@
+! You can use it only in educational purposes !
+
 # SSRF Server
 1) To run server:
 ```cmd
